@@ -22,8 +22,8 @@ compilation terminated.
 ## Создаем java код 
 * Создаем файл Main.java 
 * Пишем код ниже 
-* ```
-* public class Main {
+```
+public class Main {
 
     // нативный метот, реализуется в dll
     public static native void printInDll();
@@ -36,4 +36,4 @@ compilation terminated.
         test();
     }
 }
-* ```
+```
