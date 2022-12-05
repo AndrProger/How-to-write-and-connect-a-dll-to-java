@@ -66,3 +66,24 @@ JNIEXPORT void JNICALL Java_Main_printInDll
 #endif
 
 ```
+* Теперь нам нужна реализовать наши методы. Создадим файл Main.cpp и прописываем этот код
+```
+
+#include <stdio.h>
+#include "Main.h" // закоговочный файл каторый был создан при компиляции java 
+
+#ifdef __cplusplus 
+extern "C" {
+#endif
+
+    JNIEXPORT void JNICALL Java_Main_printInDll(JNIEnv* a, jclass b) // метод взятый из Main.h
+    {
+        //реализация функции
+        printf("Hello\n");
+    }
+    
+
+#ifdef __cplusplus
+}
+#endif
+```
