@@ -19,3 +19,21 @@ https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64
 g++: fatal error: no input files
 compilation terminated.
 ```
+## Создаем java код 
+* Создаем файл Main.java 
+* Пишем код ниже 
+* ```
+* public class Main {
+
+    // нативный метот, реализуется в dll
+    public static native void printInDll();
+    static{
+
+        //загружает нашу dll. Файл должен быть в одной директории с файлом Main.java
+        System.loadLibrary("Main");
+    }
+    public static void main(String[] args) {
+        test();
+    }
+}
+* ```
