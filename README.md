@@ -33,7 +33,11 @@ public class Main {
         System.loadLibrary("Main");
     }
     public static void main(String[] args) {
-        test();
+       printInDll();
     }
 }
+```
+* Кампилируем код с помошью команды в консоли 
+```
+javac -h . Main.java
 ```
