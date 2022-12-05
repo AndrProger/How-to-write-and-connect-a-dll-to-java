@@ -14,4 +14,8 @@ https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64
   *  Нажимаем сочетание клавиш WIN+R и вводим systempropertiesadvanced   ![image](https://user-images.githubusercontent.com/114221320/205640536-8477c773-5f0c-4be8-b6fd-3e36e79cd5dd.png)
   *  Окрываем параметры среды 
   *  Находим в системных переменных **Path** и кликаем два раза, надимаем создать и вставляем наш путь 
-
+*  Теперь проверим работоспособность: открываем командную строку и пишем g++. Консоль должна вывести 
+```
+g++: fatal error: no input files
+compilation terminated.
+```
