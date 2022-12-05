@@ -11,4 +11,4 @@ https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64
 * В папке mingw64 находим папку bin и копируем полной путь к папке. Пример C:\Program Files\mingw64\bin
 * Теперь нужно добавить этот путь в переменную 
 * Теперь нужно добавить этот путь в переменную среды. 
-* ** Нажимаем сочетание клавиш WIN+R и вводим systempropertiesadvanced  
+ *  Нажимаем сочетание клавиш WIN+R и вводим systempropertiesadvanced  
